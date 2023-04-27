@@ -1,0 +1,39 @@
+.header {
+  background-color: #242424;
+  background-color: #ffffff66;
+  background-color: #cccccc52;
+  backdrop-filter: blur(40px);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  padding: 2rem;
+  margin: auto;
+  height: 5rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.list a {
+  transition: 0.4s;
+  color: #4e4e4e;
+  color: rgba(255, 255, 255, 0.87);
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.list a:hover,
+.list a.active {
+  /* color: #3aa0c2; */
+  color: var(--color-primary-900);
+  text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.list a {
+  transition: 0.4s;
+  background-color: var(--color-gray-400);
+  border-radius: 4px;
+  color: var(--color-gray-400);
+  color: black;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  font-weight: 100 !important;
+  font: inherit;
+}
+
+.list a:hover {
+  
+  background-color: black;
+  color: white;
+}
+
+.list a.active {
+  background-color: var(--color-primary-900);
+  color: black;
+}
+.list a.active:hover {
+  background-color: black;
+  color: white;
+}
